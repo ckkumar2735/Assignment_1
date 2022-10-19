@@ -1,3 +1,5 @@
+import java.io.*;
+class Abc{
 function maxMinSorting(arr, n)
 {
     let temp = new Array(n);
@@ -18,7 +20,8 @@ function maxMinSorting(arr, n)
     for (let i = 0; i < n; i++)
         arr[i] = temp[i];
 }
-
+public static void main(String args[])
+{
     let arr = [2, 4, 6, 8, 10 ];
     let n = arr.length;
  
@@ -32,3 +35,4 @@ function maxMinSorting(arr, n)
     console.log("New Array with modification");
     for (let i = 0; i < n; i++)
         console.log(arr[i]);
+}}
